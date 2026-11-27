@@ -8,18 +8,6 @@ A Myanmar Part-of-Speech (POS) tagging project using Conditional Random Fields (
 * **Corpus File Used:** `mypos-ver.3.0.txt` (kept locally in `data/`, excluded from version control)[cite: 1]
 * **Train / Test Split:** 80% / 20% (`34,556` train sentences and `8,640` test sentences; `108,072` test tokens)[cite: 1]
 
-## Project Structure
-```text
-CRF_POS_Tagger/
-├── Htoo_Eaindra_Tin.assignment-1.ipynb
-├── mypos_model.crfsuite
-├── prep_data/
-│   ├── load_dataset.py
-│   ├── load_pos_data.py
-│   ├── myWord_tagger.py
-│   └── word_2_features.py
-└── README.md
-```
 
 ## Model & Features
 * **Algorithm:** Linear-chain Conditional Random Fields (`pycrfsuite.Trainer` and `pycrfsuite.Tagger`)[cite: 1]
